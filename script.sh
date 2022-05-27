@@ -13,4 +13,4 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 sudo usermod -aG docker $USER
-sudo docker run -p 5000:8000 -d shivamsherkar/flask-container
+sudo docker run -p 5000:8000 -d shivamsherkar/flask-container:2.0
